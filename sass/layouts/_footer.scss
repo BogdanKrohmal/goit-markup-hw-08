@@ -138,11 +138,12 @@
   @media screen and (min-width: 1200px) {
     gap: 70px;
     align-items: baseline;
-  }
-  > .addres-container {
+    > .addres-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+  
   }
 }
 
