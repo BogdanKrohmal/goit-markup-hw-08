@@ -822,7 +822,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .logo-link-footer {
-    text-align: normal;
+    text-align: left;
   }
 }
 
