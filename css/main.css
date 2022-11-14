@@ -151,12 +151,24 @@ body {
 
 .header {
   background-color: var(--stud-main-h1-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
   border-top: 1px #ececec;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .navigation {
@@ -577,6 +589,12 @@ body {
   text-transform: uppercase;
   color: var(--stud-title-color);
   margin-bottom: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .methods__title {
+    text-align: left;
+  }
 }
 
 .methods__text {
@@ -817,6 +835,7 @@ body {
 @media screen and (min-width: 1200px) {
   .address-list {
     gap: 9px;
+    align-items: flex-start;
   }
 }
 
@@ -939,6 +958,11 @@ body {
     gap: 70px;
     align-items: baseline;
   }
+}
+.cont-tablet > .addres-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .footer-soc-list {
