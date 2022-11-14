@@ -963,6 +963,8 @@ body {
     gap: 70px;
     align-items: baseline;
   }
+}
+@media screen and (min-width: 1200px) {
   .cont-tablet > .addres-container {
     display: flex;
     flex-direction: column;
