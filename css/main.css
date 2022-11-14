@@ -904,7 +904,8 @@ body {
 @media screen and (min-width: 1200px) {
   .address-link {
     margin-bottom: 9px;
-    text-align: normal;
+    text-align: left;
+    width: 231px;
   }
 }
 
